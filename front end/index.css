@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header_menu{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 100px;
+    height: 165px;
+}
+
+.navbar{
+    margin-top: 50px;
+}
+
+.header_menu img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_menu a{
+    font-size: 30px;
+}
+
+.btn_advise{
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 19px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 62px;
+}
+
+.header_btn_start{
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    font-size: 19px;
+
+}
+
+
+.main_mission{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.main_form{
+    height: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.main_engineer{
+    margin-top: 25%;
+    padding: 40px;
+}
+
+.slowgan{
+    height: 100px;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
+    background-color: #f7f7f7;
+}
+
+.main3{
+    margin-top: 100px;
+}
+
+.card{
+    border: none;
+    padding: 30px;
+}
+
+.main4 h3{
+    margin: 30px;
+}
+
+.main5{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.main6{
+    margin-top: 150px;
+}
+
+.infor_CEO1 p{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.infor_CEO{
+    margin-top: 5%;
+    padding: 40px;
+}
+
+.main7{
+    margin-top: 150px;
+    height: 400px;
+    background-color: #ffc107;
+    color:white;
+    padding: 50px;
+}
+
+.btn_action{
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    color:#ffc107;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+
+.footer{
+    background-color: #e4e4e4;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+
+.footer li{
+    list-style-type: none;
+}
