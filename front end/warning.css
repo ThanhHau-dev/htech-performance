@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open Sans, sans-serif;
     background-color: rgb(217, 217, 217);
 
 }
@@ -30,4 +30,10 @@ body{
 }
 .main_form{
     padding: 5%;
+}
+
+.btn-warning {
+    width: 50%;
+    margin-bottom: 30px;
+    margin-left: 25%;
 }

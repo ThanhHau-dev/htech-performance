@@ -32,6 +32,8 @@
                                 Tel: 0862 701 467
                            </p>
                         </div>
+
+                        <button id="backButton" class="btn btn-warning">OK</button>
                     </form>
                 </div>
 
@@ -39,5 +41,15 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+        // Gán sự kiện click cho nút để quay lại trang trước đó
+        const backButton = document.getElementById('backButton');
+        backButton.addEventListener('click', function() {
+            // Quay lại trang trước đó
+            window.history.back();
+        });
+    </script>
 </body>
 </html>
