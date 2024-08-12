@@ -7,6 +7,9 @@
 body{
     background-color: white;
     font-family: Open Sans, sans-serif;
+    background: linear-gradient(135deg, #ffd700, #ffffff 80%), linear-gradient(45deg, #ffd700, #ffffff 80%);
+    background-blend-mode: screen;
+
 }
 
 
@@ -16,7 +19,7 @@ body{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     margin-bottom: 100px;
-    height: 165px;
+    height: 100px;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -24,6 +27,7 @@ body{
     overflow: auto; /* Cung cấp thanh cuộn nếu nội dung dài hơn */
     background-color: #f0f0f0;
     padding: 10px;
+    width: 100%;
 }
 
 .header_mobile {
@@ -44,13 +48,14 @@ body{
 }
 
 .header_menu img{
-    width: 60%;
-    object-fit: cover;
-    height: 70%;
+   width: 35%;
+   height: 100px;
+   object-fit: cover;
+   margin-top: 20px;
 }
 
 .header_menu a{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .btn_advise{
@@ -72,6 +77,19 @@ body{
     padding-top: 300px;
 }
 
+.main2 img {
+    border-radius: 25px;
+}
+
+.card{
+    border-radius: 25px;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.main4 img {
+    border-radius: 25px;
+}
 
 .main_mission{
     margin-top: 120px;
@@ -83,6 +101,7 @@ body{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 20px;
+    background-color: white;
 }
 
 
@@ -257,3 +276,7 @@ body{
         display: none;
     }
 }
+
+
+
+/* ------------------------------------------------------------------ */
