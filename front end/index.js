@@ -7,7 +7,7 @@ const buttons = document.querySelectorAll('.btn');
         buttons.forEach(button => {
             button.addEventListener('click', function() {
                 // Điều hướng sang trang mới
-                window.location.href = 'warning.html';
+                window.location.href = 'form đăng kí.html';
             });
         });
 
